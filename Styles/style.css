@@ -1,31 +1,147 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
   list-style-type: none;
- border:none;
- text-decoration: none;
- box-sizing: border-box;
- }
- .container1{
-   width: 100%;
-   margin:0 auto;
-  background-image:url(../Images/picture.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+}
+.header{
+  background-color: black;
+  
+}
+.container{
+  width: 100%;
   color: white;
-  height: 100vh;
+}
+.menu-item{
+  display: inline-block;
+  margin: 10px 20px;
+  color: white;
+}
+.menu-link{
+  color: white;
+}
+.container1{
+  width: 100%;
+  margin:0 auto;
+ background-image:url(./Images/picture.jpg);
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: cover;
+ color: white;
+ height: 100vh;
+ text-align: center;
+}
+.container2{
+  text-align: center;
+  padding: 50px 150px 50px 150px;
+ }
+ .music{
+  margin-top: 15px;
+  margin-bottom: 15px;
+ }
+.band {
+  text-align: justify;
+  
+}
+ .name{
+  padding-top: 40px;
+  margin-bottom: 15px;
+ }
+ .container2 .img-box{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 40px;
+ }
+ .container3 {
+  margin-top: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+ }
+ .container3>h2 {
+  padding-top: 45px;
+ }
+ .tickets {
+  margin-top: 10px;
+ }
+ .tour-data {
+  padding-top: 15px;
+ }
+ .months{
+  margin: 15px auto;
+  width: 672px;
+  height: 55px;
+  background-color: white;
+  text-align: left;
+  color: black;
+ }
+ .book-tickets>li {
+  color: black;
+  border: 1px solid black;
+ }
+ .sold {
+  padding: 1px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+ }
+ .cities {
+  margin-top: 15px;
+ }
+ .new-york{
+  margin-left: 0px;
+  background-color: white;
+  width: 180px;
+  height: 230px;
+  display: inline-block;
+  color: black;
+  text-align: left;
+ }
+ .paris{
+  margin-left: 60px;
+  width: 180px;
+  height: 230px;
+  background-color: white;
+  display: inline-block;
+  color: black;
+  text-align: left;
+ }
+ .san-francisco{
+  margin-left: 60px;
+  width: 180px;
+  height: 230px;
+  background-color: white;
+  display: inline-block;
+  color: black;
+  text-align: left;
+ }
+ .contact {
+  padding-top: 30px;
   text-align: center;
  }
- header{
-   background-color:black;
-   }
-   
-   .container>nav>ul>li{
-   display:inline-block;
-   margin:20px;
-   }
-   
-   .container>nav>ul>li>a{
-   color:white;
-   }
+ .fan {
+  margin-top: 15px;
+  margin-bottom: 15px;
+ }
+.address{
+  
+  margin: 20px 80px 100px 200px;
+  display: inline-block;
+}
+.iframe {
+  display: inline-block;
+  margin: 20px 100px 50px 80px;
+
+}
+ 
+.mockup {
+  width: 100%;
+  margin:0 auto;
+ background-image:url(./Images/picture3.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
